@@ -1,0 +1,49 @@
+/* Header Styles */
+.header {
+  background: linear-gradient(135deg, #0074e4 0%, #00a8e8 100%);
+  padding: 20px 0; /* Add some padding to the top and bottom */
+  text-align: center;
+  height: 23vh;
+  color: #fff; /* Set text color to white */
+}
+
+/* Heading Styles */
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+/* Subheading Styles */
+.header p {
+  font-size: 18px;
+  margin-top: 10px; /* Create spacing between heading and subheading */
+}
+
+/* Call to Action Button Styles */
+.header .cta-button {
+  display: inline-block;
+  background: #fff; /* Button background color */
+  color: #0074e4; /* Button text color */
+  padding: 10px 20px;
+  margin-top: 20px; /* Spacing below the subheading */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.header .cta-button:hover {
+  background: #0074e4; /* Button background color on hover */
+  color: #fff; /* Button text color on hover */
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3vh;
+  font-size: larger;
+}

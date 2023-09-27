@@ -1,0 +1,31 @@
+/* CategoryList.css */
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.category-card {
+  flex-basis: calc(50% - 16px); /* 50% width with spacing between cards */
+  margin: 8px; /* Adjust margin as needed */
+
+  background: linear-gradient(
+    45deg,
+    #3498db,
+    #e74c3c
+  ); /* Gradient background */
+  border-radius: 8px;
+  padding: 16px;
+  color: white;
+  text-align: center;
+  transition: transform 0.2s ease; /* Smooth card flip transition */
+}
+
+.category-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.results-container {
+  display: flex;
+  flex-direction: row;
+}
